@@ -164,7 +164,6 @@ public fun Polyline(
         },
         update = {
             update(onClick) { this.onPolylineClick = it }
-
             set(points) { this.polyline.points = it }
             set(spans) { this.polyline.spans = it }
             set(clickable) { this.polyline.isClickable = it }
